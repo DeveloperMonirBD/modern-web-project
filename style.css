@@ -282,7 +282,6 @@ header {
 }
 
 /* cta section */
-
 .cta-section {
     margin-top: 2rem;
     background-color: #183b54;
@@ -298,3 +297,20 @@ header {
     color: #fff;
     margin-top: 20px;
 }
+
+/* footer section */
+footer {
+    padding-block: 85px;
+    background-color: #ebf2fa;
+}
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
