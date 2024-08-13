@@ -216,14 +216,66 @@ header {
 
 .big-feature-container {
     gap: 30px;
-
 }
 
-.feature-img  img{
+.feature-img img {
     width: 100%;
 }
 
 .feature-desc {
     flex-direction: column;
     align-items: flex-start;
+}
+
+/* examples section */
+.examples-header {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.examples-area {
+    justify-content: space-between;
+    margin-block: 30px 0;
+}
+
+.examples-card {
+    width: 23%;
+    position: relative;
+    min-height: 250px;
+    background: black;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.2s ease-in-out;
+}
+
+.examples-card:hover {
+    box-shadow: 0 0 10px #888;
+}
+
+.examples-card1 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./assets/human1.png');
+}
+
+.examples-card2 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./assets/human2.png');
+}
+
+.examples-card3 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./assets/human3.png');
+}
+
+.examples-card4 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./assets/human1.png');
+}
+
+.card-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
