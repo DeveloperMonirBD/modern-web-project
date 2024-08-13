@@ -60,7 +60,6 @@ ul {
     /* margin: 0 auto; */
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
-    margin-top: 2rem;
 }
 
 .flex {
@@ -314,3 +313,13 @@ footer {
     justify-content: space-between;
 }
 
+/* subfooter section */
+
+.subfooter {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+.subfooter-container {
+    justify-content: center;
+    gap: 2rem;
+}
