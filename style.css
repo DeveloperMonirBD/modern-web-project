@@ -208,6 +208,9 @@ header {
     max-width: 30%;
     text-align: center;
 }
+.features-card img {
+    width: 60px;
+}
 
 /* Big Feature Section */
 .big-feature-section {
