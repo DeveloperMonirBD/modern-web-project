@@ -60,6 +60,7 @@ ul {
     /* margin: 0 auto; */
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
+    margin-top: 2rem;
 }
 
 .flex {
@@ -278,4 +279,22 @@ header {
     color: #fff;
     font-size: 0.9rem;
     font-weight: 500;
+}
+
+/* cta section */
+
+.cta-section {
+    margin-top: 2rem;
+    background-color: #183b54;
+    padding: 120px var(--padding-inline-section) 80px;
+}
+.cta-section-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    color: #fff;
+}
+
+.cta-section-container p {
+    color: #fff;
+    margin-top: 20px;
 }
